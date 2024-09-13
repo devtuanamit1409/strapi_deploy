@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_hotlines",
+  "info": {
+    "displayName": "hotline",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "hotline": {
+      "type": "string"
+    }
+  }
+}

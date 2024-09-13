@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_footer_information",
+  "info": {
+    "displayName": "Information",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name_comany": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "mail": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.mail",
+      "required": true
+    },
+    "list_social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo",
+      "required": true
+    },
+    "hotline": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.hotline",
+      "required": true
+    },
+    "thoi_gian_lam_viec": {
+      "type": "string",
+      "required": true
+    },
+    "title_footer_1": {
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "default": "THÔNG TIN LIÊN HỆ"
+    }
+  }
+}

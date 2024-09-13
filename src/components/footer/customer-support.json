@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_footer_customer_supports",
+  "info": {
+    "displayName": "Customer_support",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_footer_2": {
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "default": "HỖ TRỢ KHÁCH HÀNG"
+    },
+    "maps": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBalloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor",
+      "required": true
+    },
+    "info_support": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.support-service",
+      "required": true
+    }
+  }
+}

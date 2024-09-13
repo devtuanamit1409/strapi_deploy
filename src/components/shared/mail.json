@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_mail",
+  "info": {
+    "displayName": "mail",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "mail": {
+      "type": "email"
+    }
+  }
+}

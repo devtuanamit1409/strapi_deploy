@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_footer_thong_tin_xuongs",
+  "info": {
+    "displayName": "thong_tin_xuong",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_footer_3": {
+      "type": "string",
+      "required": true,
+      "unique": false,
+      "default": "XƯỞNG TẠI HCM"
+    },
+    "company_information": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBalloon"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "verify_registration": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "anh_xuong": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

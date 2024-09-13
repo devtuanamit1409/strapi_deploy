@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "danh_muc_cons",
+  "info": {
+    "singularName": "danh-muc-con",
+    "pluralName": "danh-muc-cons",
+    "displayName": "Danh mục con",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "danh_muc_cha": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::danh-muc-cha.danh-muc-cha"
+    }
+  }
+}

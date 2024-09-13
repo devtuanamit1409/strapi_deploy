@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "danh_muc_chas",
+  "info": {
+    "singularName": "danh-muc-cha",
+    "pluralName": "danh-muc-chas",
+    "displayName": "Danh mục cha",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

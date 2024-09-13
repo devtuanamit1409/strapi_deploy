@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_home_share_exps",
+  "info": {
+    "displayName": " share_exp",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "KINH NGHIỆM HAY"
+    },
+    "img_share_exp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.image",
+      "required": true
+    }
+  }
+}

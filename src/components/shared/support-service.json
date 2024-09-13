@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_support_services",
+  "info": {
+    "displayName": "info_support",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title_support": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

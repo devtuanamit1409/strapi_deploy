@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "singularName": "footer",
+    "pluralName": "footers",
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "thong_tin_lien_he": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.information"
+    },
+    "ho_tro_khach_hang": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.customer-support",
+      "required": true
+    },
+    "thong_tin_xuong": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.thong-tin-xuong",
+      "required": true
+    }
+  }
+}

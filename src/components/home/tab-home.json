@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_home_tab_homes",
+  "info": {
+    "displayName": "tab_home",
+    "icon": "stack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image"
+    }
+  }
+}
